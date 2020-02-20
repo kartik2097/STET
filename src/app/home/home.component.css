@@ -1,0 +1,52 @@
+.left_section{
+    border-right: 0.5px solid rgb(151, 151, 151);
+    padding: 5px;
+}
+.left_section_img{
+    margin: 10px;
+    border: 2px solid black;
+}
+.right_section{
+    height: 519px;
+    overflow-y: scroll;
+    }
+.right_section_container{
+    position: sticky;
+    top: 0px;
+    background-image: url(E:\Major\STET\src\assets\Image\Container_right.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    object-fit: fill;
+    border: 1px solid blue;
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+.exam_img{
+    float: right;
+    margin-right: 100px;
+}
+.link_button{
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif; 
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+@keyframes glowing {
+    0% { background-color: #eb3507; box-shadow: 0 0 5px #eb3507; }
+    50% { background-color: #eb3507; box-shadow: 0 0 20px #eb3507; }
+    100% { background-color: #eb3507; box-shadow: 0 0 5px #eb3507; }
+    }
+    .link_button {
+    animation: glowing 1300ms infinite;
+    }

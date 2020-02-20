@@ -1,0 +1,27 @@
+img{
+    margin-left: 10px;
+}
+.logo_text{
+    margin-left: 0px;
+    padding: 0px;
+}
+.main_govt{
+    color: #000;
+    margin:0px;
+    display: table;
+    font-size: 30px;
+    font-weight: 400;
+}
+.Tet{
+    color: #990000;
+    display: table;
+    font-size: 20px;
+    font-weight: 200;
+}
+a{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: none;
+}

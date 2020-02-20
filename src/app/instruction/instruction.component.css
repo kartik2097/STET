@@ -1,0 +1,41 @@
+    
+header{
+    background-color:  rgb(42, 117, 187);
+}
+.Instruction_header_text{
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.Instruction_header_text_tet{
+    font-size: x-large;
+    color: white;
+    font-weight: 400;
+    margin-left: 500px;
+}
+.General_Instruction{
+    position: sticky;
+    top: 40px;
+    background-color: rgb(165, 42, 89);
+}
+.General_Instruction_Text{
+color: white;
+font-size: larger;
+}
+.container{
+    margin-top:20px; 
+   
+}
+table{
+    width: 100%;
+}
+table,tr,td {
+    border: 1px solid rgb(185, 185, 185);
+    padding: 0 10px 0 5px;
+}
+.btn{
+    margin: 10px 0 15px 0;
+    width: 100px;
+    border-radius: 15px;
+    font-size: large;
+} 
