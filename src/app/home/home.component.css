@@ -1,18 +1,18 @@
-.left_section{
+/* .left_section{
     border-right: 0.5px solid rgb(151, 151, 151);
     padding: 5px;
 }
 .left_section_img{
     margin: 10px;
     border: 2px solid black;
-}
-.right_section{
+} */
+/* .right_section{
     height: 519px;
     overflow-y: scroll;
-    }
+    } */
 .right_section_container{
     position: sticky;
-    top: 0px;
+    top: 40px;
     background-image: url(E:\Major\STET\src\assets\Image\Container_right.jpg);
     background-repeat:repeat;
     background-size: cover;

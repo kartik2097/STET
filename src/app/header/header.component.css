@@ -8,15 +8,15 @@ img{
 .main_govt{
     color: #000;
     margin:0px;
-    display: table;
+    display: block;
     font-size: 30px;
     font-weight: 400;
 }
 .Tet{
     color: #990000;
-    display: table;
+    display: block;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 a{
     margin: 0;
@@ -25,3 +25,17 @@ a{
     text-decoration: none;
     outline: none;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    img{
+       width: 50px;
+       height: 70px;
+       text-align: center;
+       margin-left: 43%;
+    }
+    .logo_text{
+       text-align: center;
+        
+    }
+
+  }
